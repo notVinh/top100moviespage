@@ -18,7 +18,7 @@ interface Prop {
   index: number;
 }
 
-function MovieCard({ anime }: Prop) {
+function MovieCard({ anime, index }: Prop) {
   // console.log(anime);
 
   const variants = {
@@ -32,7 +32,7 @@ function MovieCard({ anime }: Prop) {
       initial="hidden"
       animate="visible"
       transition={{
-        delay: 0.25,
+        delay: index * 0.25,
         ease: "easeOut",
         duration: 0.5,
       }}
