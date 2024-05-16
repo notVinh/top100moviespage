@@ -15,7 +15,7 @@ import { Button } from "./ui/button";
 
 const Header = () => {
   return (
-    <div className="flex py-2 px-2 bg-black h-[60px]">
+    <div className="flex py-2 bg-black h-[60px] px-16">
       <div className="w-full   flex">
         <Image
           src="https://res.cloudinary.com/dshvydi5f/image/upload/v1712392158/vNetwork/4112786_dslfxy.png"
